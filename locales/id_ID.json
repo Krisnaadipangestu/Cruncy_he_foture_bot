@@ -1,0 +1,6 @@
+{
+    "intro": "Selamat datang di Cruncy he foture BOT SYSTEM, Silahkan ikuti petunjuk dan mohon tunggu hingga bot membalas",
+    "template.menu": "Ketik angka *{{number}}* : untuk *{{menu}}*",
+    "menu.AmbilProduk": "🧰 Ambil restock Produk",
+    "menu.alamatKantor": "Alamat Kantor"
+}

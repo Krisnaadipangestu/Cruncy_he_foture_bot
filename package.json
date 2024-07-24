@@ -1,0 +1,28 @@
+{
+  "name": "chfbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts":{
+    "start": "next build && next start -p $PORT"
+  } ,
+  "env":{
+    "PORT": "5454",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1",
+    "pepesan": "github:mqad21/pepesan",
+    "starter-project": "github:SeptiawanAjiP/bot-whatsapp-starter-project",
+    "string-template": "^1.0.0"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "session/*"
+    ]
+  }
+}
